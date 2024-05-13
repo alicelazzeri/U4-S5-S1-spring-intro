@@ -1,10 +1,10 @@
-package it.epicode.U4S5S1springintro;
+package it.epicode.springintro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class U4S5S1SpringIntroApplicationTests {
+class springIntroApplicationTests {
 
 	@Test
 	void contextLoads() {
