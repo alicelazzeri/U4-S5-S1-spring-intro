@@ -16,12 +16,14 @@ public class springIntroApplication {
 
 		SpringApplication.run(springIntroApplication.class, args);
 
-		try (AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class)) {
-			Menu menu = (Menu) ctx.getBean(Menu.class);
-			menu.viewMenu();
-		} catch (BeansException e) {
-			log.error("Error while printing the menu", e);
-		}
+// Esercizio 13/5
+//		try (AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class)) {
+//			Menu menu = (Menu) ctx.getBean(Menu.class);
+//			menu.viewMenu();
+//		} catch (BeansException e) {
+//			log.error("Error while printing the menu", e);
+//		}
+
 	}
 
 }

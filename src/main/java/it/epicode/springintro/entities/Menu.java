@@ -2,12 +2,12 @@ package it.epicode.springintro.entities;
 
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Getter
-@Setter
-@ToString
+@Component
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Slf4j
